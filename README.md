@@ -1,7 +1,7 @@
 # Reason for this fork
 
 This fork was created mainly to fix some critical bugs in the interim while waiting
-for Corey's major rewrite to be completed (see his notes below); most notably the
+for Corey's major rewrite to be completed (see his notes in the original project); most notably the
 service process restart feature did not work at all (central to the premise of this module!),
 and also to add some urgently needed features. The main new features added are:
 
