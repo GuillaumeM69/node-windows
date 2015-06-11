@@ -10,6 +10,7 @@ and also to add some urgently needed features. The main new features added are:
 - WINSW updated to latest version (1.17.)
 - WINSW XML is now cleanly generated in a more readable format (and XML content values are properly escaped as well.)
 - Show basic statistics in event log when the service has to be restarted after an unhandled exception or unexpected exit.
+- Windows services now work properly under .NET runtime 4.0+ (aka newer versions of windows.)
 
 Arthur Blake [Twitter (@arthurblake)](http://twitter.com/arthurblake)
 
