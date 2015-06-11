@@ -34,24 +34,6 @@ what, because WINSW determines the full path to where your server files are when
 the service is installed and that is hard coded into the XML until you uninstall and
 reinstall the service.)
 
-# Update (11/10/13)
-
-**tl;dr - Updates in progress.**
-
-I intended to make a lot of updates in the last few weeks. As I dove into code on all three modules, I saw a need to
-refactor the code and abstract the wrapper into its own reusable module. I have completed most of this and am currently
-writing a test suite for that module. It should provide a more robust experience across all operating systems.
-
-[![NPM version](https://badge.fury.io/js/node-windows.png)](http://badge.fury.io/js/node-windows)
-[![NGN Dependencies](https://david-dm.org/coreybutler/node-windows.png)](https://david-dm.org/coreybutler/node-windows)
-[![Build](https://api.travis-ci.org/coreybutler/node-windows.png)](https://travis-ci.org/coreybutler/node-windows)
-
-Follow the author on [G+](https://plus.google.com/u/1/111169756342687497578?rel=author)
-or [Twitter (@goldglovecb)](http://twitter.com/goldglovecb).
-
-This README provides a pretty good overview of what node-windows has to offer, but better
-documentation is now available at the [node-windows documentation portal](http://coreybutler.github.io/node-windows).
-
 # node-windows
 
   This is a standalone module, originally designed for internal use in [NGN](http://github.com/thinkfirst/NGN).
