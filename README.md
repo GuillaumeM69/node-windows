@@ -14,26 +14,6 @@ and also to add some urgently needed features. The main new features added are:
 
 Arthur Blake [Twitter (@arthurblake)](http://twitter.com/arthurblake)
 
-##How to install this fork
-
-To install this fork into your project from npm, ignore the installation
-instructions below, and first clone the git repo to a folder somewhere:
-
-`git clone https://github.com/arthurblake/node-windows.git c:\temp\node-windows`
-
-Then from your project root,
-
-`npm install c:\temp\node-windows`
-
-You may desire to install it globally using the npm -g flag as Corey suggests,
-but I prefer to install in the project root so that all project dependencies are in the
-same place (and simply not move the files around around after installing a service.
-The recommended reason to install globally doesn't make sense to me because
-movement of your project files would require a re-installation of your service no matter
-what, because WINSW determines the full path to where your server files are when
-the service is installed and that is hard coded into the XML until you uninstall and
-reinstall the service.)
-
 # node-windows
 
   This is a standalone module, originally designed for internal use in [NGN](http://github.com/thinkfirst/NGN).
@@ -42,7 +22,6 @@ reinstall the service.)
 
   For alternative versions, see [node-mac](http://github.com/coreybutler/node-mac)
   and [node-linux](http://github.com/coreybutler/node-linux)
-
 
 ## Overview
 
@@ -59,16 +38,22 @@ The following features are available in node-windows:
 
 ## Installation
 
-The recommended way to install node-windows is with npm, using the global flag:
+To install this fork into your project from npm, first clone the git repo to a folder somewhere:
 
-`npm install -g node-windows`
+`git clone https://github.com/arthurblake/node-windows.git c:\temp\node-windows`
 
-Then, in your project root, run:
+Then from your project root,
 
-`npm link node-windows`
+`npm install c:\temp\node-windows`
 
-However; it is possible to use node-windows without the global flag (i.e. install directly into the project root).
-More details regarding why this is not the recommended approach are available throughout this Readme.
+You may desire to install it globally using the npm -g flag as Corey suggests in the original project,
+but I prefer to install in the project root so that all project dependencies are in the
+same place (and simply not move the files around around after installing a service.
+The recommended reason to install globally doesn't make sense to me because
+movement of your project files would require a re-installation of your service no matter
+what, because WINSW determines the full path to where your server files are when
+the service is installed and that is hard coded into the XML until you uninstall and
+reinstall the service.)
 
 ## NO NATIVE MODULES
 
